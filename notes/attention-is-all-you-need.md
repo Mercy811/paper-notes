@@ -22,6 +22,17 @@ This article argues two main drawbacks of sequentail model and how attention mod
 
 ---
 
+[The Annotated Transformer by Harvardnlp](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+This post presents an “annotated” version of the paper in the form of a line-by-line implementation.
+
+By far, I've discovered there is one modification from original paper to 
+
+> class SublayerConnection
+
+The output of sublayer should be LayerNorm(x+Sublayer(x)). However, in this post, for code simplicity, the output is x + Sublayer(LayerNorm(x))
+
+---
 Background:
 
 Attention mechanism was used primarily in the field of visual imaging, begining in about the 1990s. 
