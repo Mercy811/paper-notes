@@ -5,7 +5,7 @@ I had a depressed and frustration experience with reading papers and trying to u
 ---
 
 - [Jun2017 Attention Is All You Need](notes/attention-is-all-you-need.md)
- - attention
+    - attention
 
 - [May2016 Neural Machine Translation By Jointly Learning To Align And Translate](notes/neural-machine-translation-by-jointly-learning-to-align-and-translate.md)
- - attention
+    - attention
