@@ -1,3 +1,10 @@
+Compared to basic RNN model, attention has two difference:
+
+- instead of just taking the last hidden state, attention takes all the hidden states from the source
+- at each time step to generate a target word, decoder gonna look at all the inputs (hidden states of encoder) and decide which are important. So this ends up  an alignment problem
+
+---
+
 [Youtube explaination by Yannic Kilcher](https://www.youtube.com/watch?v=iDulhoQ2pro)
 
 In this video, he explains the core of Transformer model:
@@ -31,6 +38,22 @@ By far, I've discovered there is one modification from original paper to
 > class SublayerConnection
 
 The output of sublayer should be LayerNorm(x+Sublayer(x)). However, in this post, for code simplicity, the output is x + Sublayer(LayerNorm(x))
+
+---
+
+### Position Embeddings 
+
+In this paper --[Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122)
+
+section3.1 introduces position embeddings which is the simple concatenation of pure word embedding and position representations. *Position embeddings are useful in our architecure since they give our model a sense of which portion of the sequence in the input or output it is currently dealing with.* Just like how analog signals with different frequency. 
+
+![signal](https://www.impinj.com/media/2217/frequencies_ch3.png)
+
+watch [this video](https://www.youtube.com/watch?v=iDulhoQ2pro) 13:48 for more details
+
+section 5.4 shows removing position embeddings from encoder or decoder does not largely decrease accuracy. Also, the length of the output sequences with or without position embeddings closely matches. This indicates that the model can learn relative position information within the contexts visible to the encoder and decoder networks which can observe up to 27 and 25 words respectively.
+
+![effect of removeing position embedding](attention-is-all-you-need-image1.png)
 
 ---
 Background:
