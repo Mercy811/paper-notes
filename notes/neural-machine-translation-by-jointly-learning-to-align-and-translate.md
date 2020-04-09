@@ -1,4 +1,4 @@
-this paper proposes a novel architecture to oversome the conjectural bottleneck of the traditional encoder-decoder architecture, the use of a fixed-length vector. 
+this paper proposes a novel architecture to overcome the conjectural bottleneck of the traditional encoder-decoder architecture, the use of a fixed-length vector. 
 
 There are two commonly used attention functions. The attention mechenism proposed by this paper is also called **additive attention**, and the other is **dot-product (multiplicative) attention** proposed in [Attention is all you need](attention-is-all-you-need.md)
 
