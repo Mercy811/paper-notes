@@ -8,7 +8,7 @@ I had a depressing and frustrating experience with reading papers and trying to 
     - Attention
 - [May2016 Neural Machine Translation By Jointly Learning To Align And Translate](notes/neural-machine-translation-by-jointly-learning-to-align-and-translate.md)
     - Attention
-- [Training Neural Machine Translation To Apply Terminology Constraints](notes/training-neural-machine-translation-to-apply-terminology-constraints)
+- [Training Neural Machine Translation To Apply Terminology Constraints](notes/training-neural-machine-translation-to-apply-terminology-constraints.md)
     - Domain-Adaptation
 
 
