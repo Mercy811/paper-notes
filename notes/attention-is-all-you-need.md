@@ -53,7 +53,7 @@ watch [this video](https://www.youtube.com/watch?v=iDulhoQ2pro) 13:48 for more d
 
 section 5.4 shows removing position embeddings from encoder or decoder does not largely decrease accuracy. Also, the length of the output sequences with or without position embeddings closely matches. This indicates that the model can learn relative position information within the contexts visible to the encoder and decoder networks which can observe up to 27 and 25 words respectively.
 
-![effect of removeing position embedding](image/attention-is-all-you-need-image1.png)
+<img src="image/attention-is-all-you-need-image1.png" alt="effect of removeing position embedding" style="zoom:50%;" />
 
 ---
 Background:
