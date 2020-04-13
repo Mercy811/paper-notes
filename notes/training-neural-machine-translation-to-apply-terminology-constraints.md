@@ -19,7 +19,7 @@ This paper integrates terminology information as inline annotations in the sourc
 1. Append the target term to its source versions 
 2. directly replace the original term with the target one 
 
-<img src="image/training-neural-machine-translation-to-apply-terminology-constraints-table1.png" alt="table1" style="zoom: 40%;" />
+<img src="image/training-neural-machine-translation-to-apply-terminology-constraints-table1.png" alt="table1" style="zoom: 55%;" />
 
 Please note they do not modify the NMT architecure, but wish the network can learn the use of terminology from the augemntation of the training data. 
 
