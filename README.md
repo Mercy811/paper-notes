@@ -8,7 +8,7 @@ I had a depressing and frustrating experience with reading papers and trying to 
 
 - [Jun2017 Attention Is All You Need](notes/attention-is-all-you-need.md)
     
-- Attention
+    - Attention
     
 - [May2016 Neural Machine Translation By Jointly Learning To Align And Translate](notes/neural-machine-translation-by-jointly-learning-to-align-and-translate.md)
     
